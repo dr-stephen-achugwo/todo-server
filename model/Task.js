@@ -8,4 +8,8 @@ const TaskSchema = new mongoose.Schema({
 });
 
 // BLOCK 3: Creating and Exporting the Model
-module.exports = mongoose.model("Task", TaskSchema);
+//module.exports = mongoose.model("Task", TaskSchema);
+
+const Task = mongoose.model("Task", reviewSchema);
+
+export default Task;
